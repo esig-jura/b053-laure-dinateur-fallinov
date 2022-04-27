@@ -147,7 +147,19 @@ header nav ul li a:hover {
     color: #2ec4b6;
 }
 
+/*************************************************
+PAGE INFORMATIONS
+*************************************************/
+.page-informations main img {
+    border-radius: 50%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
 
+.page-informations h1 {
+    text-align: center;
+}
 
 
 
