@@ -96,6 +96,56 @@ img {
 /*************************************************
 ENTÊTE DU SITE
 *************************************************/
+header {
+    text-align: center;
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+header .nom {
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+    line-height: 0.8;
+    margin: 1rem 0; /* 1rem haut/bas et 0 gauche/droite */
+}
+
+header .metier {
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+header nav {
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+header nav ul li {
+    display: inline;
+}
+/* Cache le li accueil */
+header nav ul li.accueil {
+    display: none;
+}
+
+header nav ul li a {
+    color: #fdfffc;
+    font-weight: bold;
+    padding: 15px 10px;/* 15px haut/bas et 10px gauche/droite */
+    transition: color .5s;
+}
+
+header nav ul li a:hover {
+    color: #2ec4b6;
+}
 
 
 
